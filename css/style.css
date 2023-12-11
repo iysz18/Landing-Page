@@ -10,7 +10,7 @@ a {
 }
 
 .first-container {
-    height: 450px;
+    height: 500px;
     background-color: #1D2937;
     display: flex;
     justify-content: center;
@@ -93,3 +93,52 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+/* start of second section*/
+
+.second-container {
+    height: 420px;
+    /* border: solid red 5px; */
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    /* border: solid red 3px; */
+    color: #1F2937;
+    padding: 50px 0px 50px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* margin-top: 50px; */
+    /* border: solid blue 3px;/ */
+}
+.box-text {
+    /* border: solid red 3px; */
+    width: 170px;
+    text-align: center;
+    
+    font-size: 20px;
+    color: #1F2937;
+}
+
+p {
+    margin-top: 6px;
+    padding: 0;
+    /* border: solid red 4px; */
+}
+
+.box {
+    height: 160px;
+    width: 160px;
+    border: solid #3882F6 4px;
+    border-radius: 20px;
+}
+
+/*  start of third section */
