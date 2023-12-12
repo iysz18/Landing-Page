@@ -1,6 +1,10 @@
-html body {
+html, body {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 /* remove decorations */
@@ -74,7 +78,7 @@ a {
     color: #E5E7EB;
 }
 
-button {
+.first-button {
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: 700;
@@ -97,7 +101,7 @@ button {
 /* start of second section*/
 
 .second-container {
-    height: 420px;
+    height: 500px;
     /* border: solid red 5px; */
 }
 
@@ -142,3 +146,87 @@ p {
 }
 
 /*  start of third section */
+
+.third-container {
+    height: 420px;
+    background-color: #E5E7EB;
+    /* border: solid red 4px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-thor {
+    width: 830px;
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.thor-box {
+    /* border: solid green 4px; */
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 45px;
+}
+
+.thor {
+    font-size: 26px;
+    color: #1F2937;
+    font-weight: bold;
+}
+
+/* start of the fourth section */
+
+.fourth-container {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box { 
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 110px;
+    border-radius: 6px;
+    width: 940px;
+}
+
+.header-text {
+    font-size: 25px;
+    font-weight: 600;
+    color: #F9FAF8;
+}
+
+.sub-text {
+    color: #F9FAF8;
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.blue-box-button {
+    background-color: #3882F6;
+    border: solid #F9FAF8 3px;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding: 8px 38px;
+}
+
+/* last section the footer */
+
+.footer-container {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 25px;
+    color: #E5E7EB;
+}
